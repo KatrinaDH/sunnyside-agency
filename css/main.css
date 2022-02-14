@@ -1,0 +1,47 @@
+/**** General Styles ****/
+html {
+  font-size: 18px;
+}
+
+body {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/**** Header ****/
+header nav {
+  width: 90%;
+  margin-top: 15px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+
+
+  /***** HERO AREA *****/
+
+.hero {
+  position:relative;
+}
+
+.hero figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.hero img {
+  width: 375px;
+}
