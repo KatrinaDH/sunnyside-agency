@@ -15,33 +15,120 @@ ul {
   list-style-type: none;
 }
 
-/**** Header ****/
-header nav {
-  width: 90%;
-  margin-top: 15px;
+
+/**** Header - Hero Image****/
+
+header h3 {
+  margin: 0;
+  color: white;
+  padding-left: 10px;
 }
 
 header nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   width: 100%;
+  margin-right: 10px;
+  margin-top: 0;
+  padding-left: 25px;
 }
 
-
-
-  /***** HERO AREA *****/
-
-.hero {
-  position:relative;
+.hero-img {
+  /*background-image: url("../img/image-header.jpg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.hero figure {
+.container {
+  position: absolute;
+  margin: 15px 0 0 0;
+  width: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.hamburger {
+  padding-left: 220px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.hamburger .line {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.nav__link {
+  position: fixed;
+  width: 94%;
+  top: 5rem;
+  left: 18px;
+  background-color: white;
+}
+
+.nav__link a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav__link a:hover {
+  background-color: black;
+}
+
+.hide {
+  display: none;
+}
+
+
+/*** Main Content ***/
+
+.main-content img {
+  width: 375px;
+}
+
+/*** testimonials ***/
+
+.testimonials img {
+  border-radius: 50px;
+  width: 75px;
+}
+
+/*** four photos ***/
+
+.four-photos img {
+  width: 50%;
+}
+
+.four-photos {
+  display: flex;
   flex-flow: row wrap;
 }
 
-.hero img {
-  width: 375px;
+
+
+
+
+
+@media screen and (min-width: 600px) {
+  .nav__link {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 20px;
+    background: none;
+  }
+
+  .nav__link a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
