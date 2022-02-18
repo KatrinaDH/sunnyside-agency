@@ -130,6 +130,9 @@ header nav ul {
   width: 75px;
 }
 
+.testimonials {
+  text-align: center;
+}
 /*** four photos ***/
 
 .four-photos img {
