@@ -123,6 +123,11 @@ header nav ul {
   width: 375px;
 }
 
+.main-content p {
+  text-align: center;
+}
+
+
 /*** testimonials ***/
 
 .testimonials img {
@@ -132,6 +137,14 @@ header nav ul {
 
 .testimonials {
   text-align: center;
+}
+
+.testimonials h3 {
+  text-transform: uppercase;
+  font-family: 'railway';
+  letter-spacing: 2px;
+  font-size: 1em;
+  color: hsl(210, 4%, 67%);
 }
 /*** four photos ***/
 
